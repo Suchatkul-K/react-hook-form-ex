@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import { useForm } from 'react-hook-form'
+import DefaultForm from './component/DefaultForm'
+import HookForm from './component/HookForm'
 
 function App() {
-  const {register, handleSubmit} = useForm()
 
   return (
-     <h1 className="text-3xl font-bold">
-      Hello world!
-    </h1>
+    <div>
+      <DefaultForm />
+      {/* <HookForm /> */}
+    </div>
   )
 }
 
