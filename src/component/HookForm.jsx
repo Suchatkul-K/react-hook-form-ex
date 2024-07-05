@@ -73,7 +73,7 @@ function HookForm() {
             maxLength: 10,
           })}
         />
-        {errors.mail && <p className="text-red-600">{errors.mail?.message}</p>}
+        {errors.email && <p className="text-red-600">{errors.email?.message}</p>}
 
         <button className="p-4 rounded-md bg-amber-300" form="applicationForm">
           Submit
